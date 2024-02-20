@@ -1,0 +1,10 @@
+<package>
+    <description brief="cfg_manager">
+      A small library to read, write, and share software parameter using yaml configuration files.
+   </description>
+   <maintainer>Malte Langosz/malte.langosz@dfki.de</maintainer>
+   <depend package="simulation/lib_manager" />
+   <depend package="simulation/utils" />
+    <depend package="yaml-cpp" />
+    <tags>needs_opt</tags>
+</package>
