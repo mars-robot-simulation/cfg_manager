@@ -1,7 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+
 project(cfg_manager)
 set(PROJECT_VERSION 1.0)
 set(PROJECT_DESCRIPTION "A small library to read, write, and share software parameter using yaml configuration files.")
-cmake_minimum_required(VERSION 2.6)
 
 include(FindPkgConfig)
 
